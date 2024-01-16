@@ -6,7 +6,7 @@ function logInOut() {
 }
 
 function like(element) {
-    alert("Ninja was liked");
+    alert("Ninja wasn't liked");
 
     let currentLikes = parseInt(element.innerText, 10);
 

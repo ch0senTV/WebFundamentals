@@ -1,0 +1,135 @@
+.site-container {
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+    height: 700px;
+    margin: auto;
+    font-family: 'Helvetica Neue', sans-serif;
+}
+
+.navbar {
+    color: white;
+    background-color: #1877f2;
+    font-size: 20px;
+    padding-left: 20px;
+    flex: 1;
+}
+
+.feed-header {
+    margin: auto;
+    flex: 1;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    flex: 11;
+    margin-top: 10px;
+}
+
+.pfp-col {
+    height: 100%;
+    flex: 2;
+    background-color: #1877f2;
+}
+
+.pfp-box {
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    border-style: solid;
+    border-width: 3px;
+    border-color: black;
+}
+
+.pfp-box-avatar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 30px;
+    background-color: #ffffff;
+}
+
+.pfp-box-avatar img {
+    width: 70px;
+    height: 70px;
+}
+
+.pfp-box-avatar p {
+    font-size: 20px;
+    color: #1877f2;
+    text-decoration: underline;
+}
+
+.pfp-box-name {
+    margin: auto;
+}
+
+.pfp-box-name p {
+    font-size: 25px;
+}
+
+.feed-col {
+    display: flex;
+    flex-direction: column;
+    height: 90%;
+    gap: 40px;
+    background-color: #ffffff;
+    flex: 5;
+}
+
+.Dmitriy-box, .Svetlana-box, .Artyom-box {
+    display: flex;
+    flex-direction: column;
+    height: 30%;
+    width: 80%;
+    background-color: #ffffff;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+}
+
+.top-strip {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #ffffff;
+    flex: 3;
+    width: 100%;
+}
+
+.top-strip-left {
+    padding-left: 10px;
+    flex: 1;
+}
+
+.top-strip-right {
+    display: flex;
+    flex-direction: row;
+    gap: 20%;
+    align-items: center;
+    flex: 1;
+}
+
+.top-strip-right button {
+    width: 50px;
+    height: 30px;
+    background-color: #1877f2;
+    box-shadow: 3px 3px 3px;
+}
+
+.bottom-strip {
+    width: 100%;
+    background-color: #ffffff;
+    flex: 2;
+}
+
+.bottom-strip p {
+    padding-left: 10%;
+}
+
+.bottom-strip #Dmitriy-status span, .bottom-strip #Svetlana-status span, .bottom-strip #Artyom-status span {
+    color: #1877f2;
+    text-decoration: underline;
+}

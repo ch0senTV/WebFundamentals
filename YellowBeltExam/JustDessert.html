@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JustDessert</title>
+    <link rel="stylesheet" href="JustDessert.css">
+</head>
+
+<body>
+    <header class="main-header">
+        <div class="brand-title">
+            <h1><span class="just">Just</span> <span class="dessert">Dessert</span></h1>
+        </div>
+        <div class="auth-buttons">
+            <button id="loginBtn">Login</button>
+            <button id="joinBtn">Join</button>
+        </div>
+    </header>
+    <header class="secondary-header">
+        <div class="search-wrapper">
+            <input type="text" id="searchInput" class="search-input" placeholder="Search...">
+            <button id="searchButton" class="search-button">Go</button>
+        </div>
+        <nav class="category-nav">
+            <button class="categoryBtn">
+                <img src="images/cake.png" alt="Cake Icon" class="icon">
+                Cakes
+            </button>
+
+            <button class="categoryBtn">
+                <img src="images/cookie.png" alt="Cookies Icon" class="icon">
+                Cookies
+            </button>
+            <button class="categoryBtn">
+                <img src="images/ice-cream.png" alt="Ice Cream Icon" class="icon">
+                Ice Cream
+            </button>
+            <button class="categoryBtn">
+                <img src="images/pie.png" alt="Pie Icon" class="icon">
+                Pies
+            </button>
+        </nav>
+    </header>
+    <main>
+        <section id="recipeOfTheDay">
+            <h2>Recipe of the Day</h2>
+            <img src="images/orange-tart.jpg" alt="Orange Tea Jelly Tart">
+            <h3>Orange Tea Jelly Tart</h3>
+            <p>by Yuripiano</p>
+            <div class="likes">
+                <span class="likeCount">68</span>
+                <button class="likeBtn">❤</button>
+            </div>
+        </section>
+        <section class="recommendedForYou">
+            <h2>Recommended For You</h2>
+            <article>
+                <img src="images/macarons.jpg" alt="macarons">
+                <h3>Macarons</h3>
+                <p>by EmilieW</p>
+                <div class="likes">
+                    <span class="likeCount">212</span>
+                    <button class="likeBtn">❤</button>
+                </div>
+            </article>
+            <article>
+                <img src="images/creme-brulee.jpg" alt="creme-brulee">
+                <h3>Crème Brûlée</h3>
+                <p>by MarisaQ</p>
+                <div class="likes">
+                    <span class="likeCount">33</span>
+                    <button class="likeBtn">❤</button>
+                </div>
+            </article>
+        </section>
+    </main>
+    <script src="JustDessert.js"></script>
+</body>
+
+</html>

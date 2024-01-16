@@ -1,0 +1,30 @@
+.row
+    {
+        display: flex;
+        justify-content: space-between;
+        gap: 10px;
+        margin-top: 10px;
+    }
+
+.col
+    {
+        flex: 1;
+        text-align: center;
+        padding: 10px;
+        border: 1px solid #e40f1a;
+        background: #097eeb;
+    }
+
+.col-2
+    {
+        flex: 2;
+        border: 1px solid #e40f1a;
+        background: #097eeb;
+    }
+
+.col-3
+    {
+        flex: 3;
+        border: 1px solid #e40f1a;
+        background: #097eeb;
+    }

@@ -1,0 +1,39 @@
+.octobackgroundrow1
+{
+    background-color: rgb(23, 210, 235);
+    margin: 10px;
+    padding: 22px;
+    display: flex;
+    justify-content:space-around;
+}
+
+.octobackgroundrow2
+{
+    background-color: rgb(218, 95, 243);
+    margin: 10px;
+    padding: 22px;
+    display: flex;
+    justify-content:space-around;
+}
+
+.octobackgroundrow3
+{
+    background-color: rgb(209, 203, 203);
+    margin: 10px;
+    padding: 22px;
+    display: flex;
+    justify-content:space-around;
+}
+
+.octocat-container
+        {
+            text-align: center;
+            margin: 20px;
+        }
+
+        img.octocat
+        {
+            height: 200px;
+            margin: 10px auto;
+            display: block;
+        }

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dojonary</title>
+    <link rel="stylesheet" href="buttonclicker.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="nav">
+            <h2>Dojonary</h2>
+            <input type="text" id="fname" name="fname">
+            <button id="login" onclick="logInOut()">Sign In</button>
+        </div>
+        <div class="main">
+            <div class="colA">
+                <div class="ninjaBox">
+                    <div class="ninjaCol">
+                        <div class="tophalf">
+                            <h>Ninja</h>
+                            <p>noun</p>
+                            <p>plural: ninjas</p>
+                        </div>
+                        <div class="bottomhalf">
+                            <button onclick="like(this)">13 likes</button>
+                        </div>
+                    </div>
+                    <div class="ninjaDef"></div>
+                </div>
+                <div class="ninjaBox">
+                    <div class="ninjaCol">
+                        <div class="tophalf">
+                            <h class="word">Ninja</h>
+                            <p class="pos">Noun</p>
+                            <p class="plural">Plural: ninjas</p>
+                        </div>
+                        <div class="bottomhalf">
+                            <button onclick="like(this)">37 likes</button>
+                        </div>
+                    </div>
+                    <div class="ninjaDef"></div>
+                </div>
+            </div>
+            <div class="colB">
+                <div id="dojonaryBox">
+                    <div class="dojonaryCol">
+                        <div class="pinkBox" id="userDefinedBox">
+                            <p>Dojonary is defined by you</p>
+                            <button onclick="addDefinition()">Add Definition</button>
+                        </div>
+                        <div class="bottomhalf"></div>
+                    </div>
+                    <div class="ninjaDef"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="buttonclicker.js"></script>
+</body>
+
+</html>

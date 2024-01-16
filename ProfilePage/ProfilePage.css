@@ -1,0 +1,279 @@
+a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+ul
+{
+    list-style-type:none;
+    font-size:15px;
+    justify-content: flex-start;
+}
+tr
+{
+    border: 10px solid black;
+}
+.container
+{
+    margin:0;
+    padding:0;
+    background-color:rgba(255, 255, 255, 0.5);
+    width:1000px;
+}
+.navBar
+{
+color: white;
+background-color: black;
+height: 40px;
+}
+.nav
+{
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    background-color:rgb(15, 15, 15);
+    height:40px;
+    display:flex;
+    justify-content: space-around;
+}
+.lifeInvader
+{
+    margin-left: 10px;
+    color:white;
+    font-size:medium;
+    align-items: center;
+}
+.nav-links
+{
+    font-size: 12px;
+    display:flex;
+    list-style-type:none;
+    align-items: center;
+    gap:7px;
+    margin-right:10px;
+}
+.nav-links > li
+{
+    flex:1;
+    text-wrap:nowrap;}
+.btn
+{
+    background-color:rgb(255, 255, 255);
+    box-shadow: black 2px 2px;
+    color:rgb(0, 0, 0);
+    font-size:15px;
+    border: 2px black;
+    border-style:solid;
+    margin-right:40px;
+    width:100px;
+    height: 90%;
+}
+.mainContent
+{
+    display:flex;
+    margin: 20px;
+    justify-content:center;
+    background-color:rgb(255, 255, 255);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.profileEducation{
+    width: 40%;
+    background-color:rgb(255, 255, 255);
+    text-align:center;
+}
+.allConnections
+{
+    width:25%;
+    background-color: rgb(255, 255, 255);
+    text-align:center;
+    padding-top:12px;
+}
+.userCard {
+height: 250px;
+background-color: rgb(255, 255, 255);
+margin-left: auto;
+margin-right: auto;
+margin-top: 20px;
+margin-bottom:20px;
+width: 90%;
+border-style:solid;
+border-color:rgb(255, 0, 0);
+border-width:2px;
+}
+.icon
+{
+    height: 15px;
+    width:15px;
+}
+.top-strip
+{
+    background-color:rgb(255, 0, 0);
+    text-align:left;
+    height:28%;
+
+}
+.bottom-strip
+{
+    background-color:rgb(236, 242, 255);
+    text-align:left;
+    height:72%;
+    display:flex;
+}
+#pic
+{
+    height: 55px;
+    width: 55px;
+    position: relative;
+    top: 40px;
+    left: 20px;
+}
+.edit {
+    display:flex;
+}
+.education
+{
+width:  90%;
+height:245px;
+background-color:rgb(236, 242, 255);
+margin-left: auto;
+margin-right: auto;
+border-style:solid;
+border-color:rgb(255, 0, 0);
+border-width:2px;
+}
+.education h3
+{
+    background-color: rgb(255, 255, 255);
+    color:#e3e3e3;
+    text-align:left;
+    padding-left:20px;
+    padding-top:10px;
+    height:40px;
+    margin-top:auto;
+    border-style:solid;
+    border-color:rgb(255, 0, 0);
+    border-width:2px;
+}
+#yourConnections
+{
+    width:  80%;
+    height: 315px;
+    background-color:rgb(255, 255, 255);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom:10px;
+    border-style:solid;
+    border-color:rgb(255, 0, 0);
+    border-width:2px;
+    }
+#connectionRequests
+{
+    width:  80%;
+    height:  170px;
+    background-color:rgb(255, 255, 255);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom:10px;
+    border-style:solid;
+    border-color:rgb(255, 0, 0);
+    border-width:2px;
+    }
+.yesNo
+{
+    height:30px;
+    width:30px;
+}
+#pfpReq
+{
+    height:35px;
+    width:35px;
+    border-style:solid;
+    border-radius:50%;
+    border:4px;
+    padding-left:5px;
+}
+#prof,  #more
+{
+    color:rgb(48, 3, 248);
+    text-decoration:underline;
+    position:relative;
+    left:5px;
+    bottom:12px;
+}
+#more
+{
+    margin-left: auto;
+    margin-right: auto;
+    position:relative;
+    left:20px;
+    top:5px;
+}
+#also
+{
+    border-style:solid;
+    border-color:rgb(255, 0, 0);
+    border-width:2px;
+}
+#stack
+{
+    font-size:24px;
+    text-align:left;
+    padding-left:20px;
+    font-weight: bold;
+    height:30px;
+}
+#date
+{
+    font-size:15px;
+    text-align:left;
+    padding-left:20px;
+    padding-top:20px;
+}
+#cred
+{
+    font-size:20px;
+    text-align:left;
+    padding-left:20px;
+}
+#inc
+{
+    height: 30px;
+    width:30px;
+    border-style:solid;
+    border-width:2px;
+    border-radius:50%;
+    border-color:rgb(255, 0, 0);
+}
+#requests, #your
+{
+    width:100%;
+    border-spacing:0;
+
+}
+#reqTop, #friendTop
+{
+    background-color:rgb(255, 255, 255);
+    color:#e3e3e3;
+}
+#reqTopSide
+{
+    font-size: 13px;
+}
+
+
+#yourConnections td
+{
+    text-align: left;
+}
+
+#cR
+{
+    text-align:left;
+}
+
+#incReq td, #also
+{
+    font-size:12;
+    padding-top:3px;
+    padding-bottom:3px;
+}

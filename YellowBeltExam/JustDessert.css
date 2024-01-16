@@ -1,0 +1,278 @@
+body
+{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+}
+
+header
+{
+    background: #000;
+    height: 80px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.secondary-header {
+    background-color: #ffdab9;
+    height: 210px;
+    font-size: 2em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+main
+{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+#recipeOfTheDay
+{
+    flex: 2;
+    margin-right: 20px;
+    background-color: #ffffff;
+    padding: 20px;
+    text-align: center;
+}
+
+.recommendedForYou
+{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.recommendedForYou article,
+.otherRecipes article
+{
+    background-color: #ffffff;
+    border: 1px solid #000000;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.brand-title
+{
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+}
+
+.brand-title .dessert
+{
+    color: orange;
+}
+
+#searchBar
+{
+    padding: 5px;
+    background-color: #ffffff;
+    border: 1px solid #000000;
+}
+
+.categoryBtn
+{
+    background-color: #ffe66d;
+    border: none;
+    padding: 10px;
+    margin: 5px;
+}
+
+#loginBtn,
+#joinBtn
+{
+    border: none;
+    padding: 5px;
+    margin: 5px;
+    color: white;
+}
+
+#loginBtn
+{
+    background-color: orange;
+}
+
+#joinBtn
+{
+    background-color: blue;
+}
+
+.likes
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.likeBtn
+{
+    background: none;
+    border: none;
+    font-size: 1.5em;
+    cursor: pointer;
+    color: #ff0000;
+}
+
+.likeCount
+{
+    margin-right: 5px;
+}
+
+.auth-buttons
+{
+    display: flex;
+    align-items: center;
+}
+
+.search-container
+{
+    position: relative;
+    max-width: 300px;
+    flex-grow: 1;
+}
+
+.search-input
+{
+    width: 100%;
+    border: 2px solid #ccc;
+    border-radius: 20px;
+    padding: 10px 40px 10px 20px;
+    font-size: 16px;
+    outline: none;
+}
+
+.search-input::placeholder
+{
+    text-align: center;
+    color: grey;
+}
+
+.search-button
+{
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.header-bottom
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #ffdab9;
+}
+
+.button-group
+{
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 20px;
+}
+
+.categoryBtn
+{
+    margin-right: 232px;
+}
+.categoryBtn
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    background: none;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 16px;
+    flex-direction: column;
+}
+
+.categoryBtn .icon
+{
+    height: 320px;
+    width: 320px;
+    margin-right: 8px;
+
+}
+
+.search-button
+{
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    height: 84%;
+    box-sizing: border-box;
+    margin-left:20px;
+  }
+
+  .search-bar-container
+  {
+    display: flex;
+    align-items: center;
+  }
+
+  .category-nav
+  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.categoryBtn
+{
+    display: flex;
+    align-items: center;
+    border: none;
+    background: none;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 16px;
+
+}
+
+.categoryBtn .icon
+{
+    height: 20px;
+    width: 20px;
+    margin-right: 8px;
+}
+
+.search-wrapper {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.search-input {
+    width: 100%;
+    padding-right: 50px;
+
+}
+
+.search-btn {
+    position: absolute;
+    right: 0;
+    height: 100%;
+}
+
+/* this is all a mess i was stressing changing things 24/7 trying to make it work lol. dont mind the css jumping everywhere */
